@@ -24,6 +24,7 @@ body {
   display: flex;
 }
 .li-event-name {
-  padding-left: 10rem;
+  position: absolute;
+  padding-left: 15rem;
   text-align: center;
 }
