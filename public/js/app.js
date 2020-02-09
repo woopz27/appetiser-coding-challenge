@@ -2015,7 +2015,7 @@ __webpack_require__.r(__webpack_exports__);
         weekday: 'long'
       };
       this.dayAndDayName = [];
-      this.month = month === 0 ? 1 : month;
+      this.month = month === 0 ? 1 + 1 : month;
       this.year = year === 0 ? new Date().getFullYear() : year;
 
       for (var i = 1; i <= totalDays; i++) {

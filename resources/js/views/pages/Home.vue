@@ -102,7 +102,7 @@
           let totalDays = (month === 0 && year === 0)? new Date().getDate() : new Date(year, month, 0).getDate();
           let options = {weekday: 'long'};
           this.dayAndDayName = [];
-          this.month = (month === 0)? 1 : month;
+          this.month = (month === 0)? 1 + 1 : month;
           this.year = (year === 0)? new Date().getFullYear() : year;
           for(let i = 1; i <= totalDays; i++) {
             let monthFormatted = (month === 0 && year === 0)? new Date().getMonth() : new Date(year, month, 0).getMonth(); 
